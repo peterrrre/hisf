@@ -1,0 +1,936 @@
+    1  ll
+    2  cd ..
+    3  ll
+    4  cd ..
+    5  mkdir /data
+    6  cd /home/
+    7  mkdir /data
+    8  sudo mkdir /data
+    9  ll
+   10  sudo fdisk -l /dev/sda3
+   11  lsblk
+   12  sudo fdisk -l /dev/sda/sda3
+   13  sudo fdisk -l
+   14  mount /dev/sda3 /data
+   15  sudo mount /dev/sda3 /data
+   16  df -h
+   17  sudo fdisk -l
+   18  lsblk
+   19  lvdisplay
+   20  lvdisplay /dev/sda3
+   21  sudo lvdisplay /dev/sda3
+   22  vbirdvg
+   23  vgdisplay
+   24  sudo vgdisplay
+   25  sudo lvdisplay
+   26  sudo lvdisplay /dev/sda3
+   27  cd /data
+   28  ll
+   29  sudo lvdisplay
+   30  sudo mount /dev/sda3 /data
+   31  pvs
+   32  sudo fdisk -l /dev/sda3
+   33  lvscan
+   34  sudo lvscan
+   35  vgscan
+   36  sudo vgscan
+   37  lsblk
+   38  df -h
+   39  fdilk -l
+   40  fdisk -l
+   41  sud ofdisk -l
+   42  sudo fdisk -l
+   43  lsblk
+   44  cat /etc/fstab
+   45  df -h /boot
+   46  fdisk
+   47  fdisk -l
+   48  sudo fdisk -l
+   49  df -h
+   50  fdisk
+   51  lsblk
+   52  df -lh
+   53  df -h
+   54  df -lh
+   55  fdisk -l
+   56  sudo fdisk -l
+   57  sudo df -h
+   58  list disk
+   59  sudo df -h
+   60  sudo df -hl
+   61  sudo -s
+   62  df -h
+   63  su ubuntu
+   64  cd /date
+   65  cd /data
+   66  ll
+   67  vim /etc/profile
+   68  sudo mount /dev/sda3 /data
+   69  df -h
+   70  lvm2
+   71  df -h /data
+   72  sudo vim /etc/fstab
+   73  cd /etc
+   74  ll
+   75  vim fstab 
+   76  blkid /dev/sda3
+   77  blkid /dev/sda2
+   78  lsdlk
+   79  lsblk
+   80  cat /etc/fstab
+   81  sudo vim /etc/fstab 
+   82  df -h /data
+   83  cat /etc/fstab
+   84  ll
+   85  cd /opt
+   86  ll
+   87  ifconfig/all
+   88  ifconfig /all
+   89  ifconfig /a
+   90  ifconfig
+   91  htop
+   92  ll
+   93  df -h
+   94  du
+   95  df -hl
+   96  df 0sh
+   97  f -sh
+   98  df -sh
+   99  fdisk -l
+  100  sudo -i
+  101  history
+  102  exit
+  103  ls
+  104  f
+  105  ls
+  106  f
+  107  echo $HOMEA
+  108  cd /data/test/
+  109  ll
+  110  cd 
+  111  cd ../../
+  112  ll
+  113  cd src
+  114  ll
+  115  cd ..
+  116  df -h
+  117  cd /home/
+  118  ll
+  119  cd ubuntu/
+  120  ll
+  121  cd ../../
+  122  ll
+  123  cd opt
+  124  ll
+  125  cd ..
+  126  cd usr
+  127  ll
+  128  cd ..
+  129  ll
+  130  cd bin
+  131  ll
+  132  mkdir test
+  133  cd ..
+  134  chmod 777 /data
+  135  sudo chmod 777 /data
+  136  ll
+  137  cd data/
+  138  ll
+  139  cd lost+found/
+  140  sudo cd lost+found/
+  141  mkdir test
+  142  ll
+  143  cd test/
+  144  ll
+  145  git clone https://github.com/dimensionofficial/dimension.git
+  146  cd dimension/
+  147  git submodule update --init --recursive
+  148  cd scripts/
+  149  git checkout v.testnet
+  150  grep -nr HOME
+  151  cd ..
+  152  grep -nr HOME
+  153  echo $HOMEA
+  154  . /etc/profile
+  155  echo $HOMEA
+  156  grep "HOME" * -R | awk -F: '{print $1}' | sort | uniq | xargs sed -i 's/HOME/HOMEA/g'
+  157  echo $HOMEA
+  158  grep -nr HOME
+  159  cd scripts/
+  160  echo $HOMEA
+  161  grep -nr 'local/share'
+  162  cd ..
+  163  grep -nr 'local/share'
+  164  vim libraries/fc/src/filesystem.cpp 
+  165  vim scripts/eosio_uninstall.sh 
+  166  grep -nr 'local/share'
+  167  echo $HOMEA
+  168  cd scripts/
+  169  echo $HOMEA
+  170  sudo ./eosio_build.sh 
+  171  vim eosio_build_ubuntu.sh 
+  172  echo $HOMEA
+  173  sudo ./eosio_build.sh 
+  174  sudo apt-get update
+  175  sudo apt-get upgrade
+  176  echo $HOMEA
+  177  export HOMEA='/data/test'
+  178  echo $HOMEA
+  179  sudo ./eosio_build.sh 
+  180  sudo apt install grephviz
+  181  sudo apt-get install grephviz
+  182  sudo apt-get upgrade
+  183  grep -nr 'The following dependencies are'
+  184  vim eosio_build_ubuntu.sh 
+  185  lvscan
+  186  sudo lvscan
+  187  modprobe dm-mod
+  188  sudo vgchange -a y
+  189  sudo mount /dev/sda3 /data
+  190  lvscan
+  191  sudo lvscan
+  192  sudo modprobe dm-mod
+  193  sudo vgchange -a y
+  194  sudo mount /dev/sda3 /data
+  195  lvscan
+  196  sudo lvscan
+  197  VG
+  198  vg
+  199  vG
+  200  pvdisplay
+  201  sudo pvdisplay
+  202  sudo lvscan
+  203  sudo vgchange -ay ubuntu-vg
+  204  sudo lvscan
+  205  df -h /data
+  206  sudo vgdisplay
+  207  df -h /
+  208  lvdisplay
+  209  sudo lvdisplay
+  210  ls -l /
+  211  mount
+  212  fdisk -l /dev/sda
+  213  sudo fdisk -l /dev/sda
+  214  gdisk -l /dev/sda
+  215  sudo gdisk -l /dev/sda
+  216  cat /etc/fstab 
+  217  blkid /dev/mapper/ubuntu--vg-ubuntu--lv
+  218  blkid /dev/sda3
+  219  blkid /dev/sda2
+  220  lvdisplay
+  221  sudo lvdisplay
+  222  pvdisplay
+  223  sudo pvdisplay
+  224  sudo vgs
+  225  sudo lvcreate -n test-lv -l 1M ubuntu-vg
+  226  df -h
+  227  sudo lvcreate -L 1M -n test-lv ubuntu-vg
+  228  df -h
+  229  lvdisplay
+  230  sudo lvdisplay
+  231  mke2fs -j /dev/ubuntu-vg/test-lv
+  232  sudo mke2fs -j /dev/ubuntu-vg/test-lv
+  233  sudo mount /dev/ubuntu-vg/test-lv /data
+  234  df -h /data
+  235  ls -l /data
+  236  mount
+  237  sudo mount /dev/mapper/ubuntu-vg/test-lv /data
+  238  df -h /data
+  239  lsblk
+  240  lvscan
+  241  sudo lvscan
+  242  vgchange -a y /dev/ubuntu-vg/test-lv
+  243  sudo vgchange -a y /dev/ubuntu-vg/test-lv
+  244  sudo vgchange -a y /dev/ubuntu-vg/test--lv
+  245  sudo mount /dev/sda3/ubuntu--vg-test--lv /data
+  246  sudo -s
+  247  mount /dev/mapper/ubuntu--vg-test--lv /data
+  248  df -h
+  249  lsblk
+  250  df -h /data
+  251  blkid /dev/mapper/ubuntu--vg-test--lv
+  252  vim /etc/fstab 
+  253  df -h /data
+  254  lvscan
+  255  mkdir /nodetest
+  256  mount /nodetest
+  257  mount /dev/ubuntu-vg/test-lv /nodetest
+  258  df -h /nodetest/
+  259  mount /dev/mapper/ubuntu--vg-nodetest--lv /data
+  260  cd /data
+  261  ll
+  262  mount /dev/mapper/ubuntu--vg-nodetest--lv /nodetest
+  263  lvscan
+  264  mkdir /nodetest1
+  265  mount /dev/mapper/ubuntu--vg-nodetest--lv /nodetest1
+  266  mount /dev/ubuntu-vg/test-lv /data
+  267  df -h /data
+  268  mount /dev/ubuntu-vg/test-lv /nodetest1
+  269  df -h /nodetest1
+  270  cd 
+  271  mkdir /data
+  272  cd /data
+  273  ll
+  274  cd ..
+  275  ll
+  276  mkfs.ext4 /dev/ubuntu-vg/test-lv
+  277  mount
+  278  df
+  279  umount /data
+  280  umount /nodetest
+  281  umount /nodetest1
+  282  mkfs.ext4 /dev/ubuntu-vg/test-lv
+  283  lvscan
+  284  mkfs.ext4 /dev/ubuntu-vg/nodetest-lv
+  285  lvremove /dev/ubuntu-vg/test-lv
+  286  lvscan
+  287  fdisk -l
+  288  mount /dev/ubuntu-vg/nodetest-lv /data
+  289  df -h /data
+  290  blkid /dev/mapper/ubuntu--vg-nodetest--lv
+  291  vim /etc/fstab 
+  292  mount /dev/ubuntu-vg/nodetest-lv /data
+  293  df -h /data
+  294  fdisk -l
+  295  df
+  296  ll
+  297  cd data
+  298  ll
+  299  cd ..
+  300  rm -rf data
+  301  mkdir /data
+  302  mount /dev/ubuntu-vg/nodetest-lv /data
+  303  df
+  304  df -h
+  305  cd /data
+  306  ls -h
+  307  sudo -ubuntu
+  308  su ubuntu
+  309  sudo apt-get install build-essential
+  310  sudo apt-get dist-upgrade
+  311  sudo apt-get update
+  312  sudo apt-get install build-essential
+  313  sudo apt-get install graphviz
+  314  cd /data/test/dimension/scripts/
+  315  echo $HOMEA
+  316  df -h /
+  317  sudo ./eosio_build.sh
+  318  df -h
+  319  pwd
+  320  ls
+  321  ll
+  322  pwd
+  323  ls
+  324  cd ../
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd data/
+  329  ls
+  330  cd test/
+  331  ls
+  332  cd dimension/
+  333  ls
+  334  git status
+  335  git diff
+  336  git status
+  337  cat .git/config
+  338  git log -3
+  339  git branch -a
+  340  git branch 
+  341  git status
+  342  cd scripts/
+  343  ls
+  344  ./eosio_build.sh 
+  345  cd /data/
+  346  ls
+  347  cd test/
+  348  ls
+  349  cd dimension/
+  350  ls
+  351  cd scripts/
+  352  ./eosio_build.sh 
+  353  fg
+  354  echo $HOMEA
+  355  cd /home/
+  356  cd ubuntu/
+  357  ll
+  358  vim test.sh
+  359  sh test.sh 
+  360  vim test.sh
+  361  sh test.sh 
+  362  vim test.sh
+  363  sh test.sh 
+  364  vim test.sh
+  365  sh test.sh 
+  366  ll
+  367  rm test.sh 
+  368  echo $HOMEA
+  369  cd /data/test/
+  370  ll
+  371  df -h
+  372  cd /
+  373  ll
+  374  cd /data/
+  375  ll
+  376  cd test/
+  377  ll
+  378  grep -nr 'local/share'
+  379  cd dimension/
+  380  grep -nr 'local/share'
+  381  cd /home/ubuntu/
+  382  ll
+  383  cd /
+  384  ll
+  385  cd etc/
+  386  ll
+  387  cd X11/
+  388  ll
+  389  cd /data/
+  390  ll
+  391  cd test/
+  392  ll
+  393  cd etc/
+  394  ll
+  395  cd ../opt/
+  396  ll
+  397  cd ../doc
+  398  ll
+  399  cd /doc
+  400  cd /
+  401  ll
+  402  cd src
+  403  ll
+  404  cd run
+  405  cd ../run
+  406  ll
+  407  cd ../bin
+  408  ll
+  409  cd ../data
+  410  ll
+  411  pwd
+  412  cd ../doc
+  413  ll
+  414  cd ..
+  415  ll
+  416  cd /home/
+  417  ll
+  418  cd ubuntu/
+  419  ll
+  420  cd /
+  421  ll
+  422  cd etc/
+  423  ll
+  424  find / -name 'apache2' type -d
+  425  find / -name 'apache2' -type d 
+  426  sudo find / -name 'apache2' -type d 
+  427  ll
+  428  vim alternatives/
+  429  cd alternatives/
+  430  ll
+  431  cd ..
+  432  cd /data/test/
+  433  ll
+  434  cd bin/
+  435  ll
+  436  cd ..
+  437  ll
+  438  cd data/
+  439  ll
+  440  cd doc
+  441  cd ../doc
+  442  ll
+  443  cd etc
+  444  ll
+  445  cd ../etc
+  446  ll
+  447  cd ../opt
+  448  ll
+  449  cd ../share
+  450  ll
+  451  sudo find / -name 'apache2' -type d 
+  452  cd /data/test/dimension/build/programs/cleos/
+  453  ll
+  454  ./cleos wallet create --to-console
+  455  ./cleos wallet import
+  456  ./cleos wallet open
+  457  cleos wallet unlock
+  458  ./cleos wallet unlock
+  459  ./cleos wallet create_key
+  460  ./cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+  461  ./cleos wallet import EOS7oLZbzYhnYdzmSRLco8edJVp1S44pPmZevwvy9gB6Nfpvwvsp5
+  462  ./cleos wallet import PW5JKNFtZFQpNXou9DW5665jXSUdvvMoHCwKyCdzqtGuMwbUBZFEM
+  463  ./cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+  464  ./cleos wallet import 5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8
+  465  ./cleos wallet import 
+  466  ./cleos -u http://47.103.88.11:8001 system staketognode 'asmallpotato' 'EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'
+  467  ./cleos -u http://47.103.88.11:8001 system newproposal 'asmallpotato' 'asmallpotato' '3' 1 '6'
+  468  cleos
+  469  ./cleos
+  470  cp /data/test/dimension-testnet/config.ini /data/test/dimension/build/programs/nodeos/
+  471  ll
+  472  cd ../nodeos/
+  473  ll
+  474  vim config.
+  475  vim config.ini 
+  476  cd ../cl
+  477  cd ../cleos/
+  478  ./cleos
+  479  cd ../../../
+  480  grep -nr 'local/share'
+  481  cd build/programs/nodeos/
+  482  ll
+  483  ./nodeos 
+  484  cd /data/test/
+  485  ll
+  486  cd .local/
+  487  ll
+  488  cd share/
+  489  ll
+  490  cd eosio/
+  491  ll
+  492  cd nodeos/
+  493  ll
+  494  cd config/
+  495  ll
+  496  vim config.ini 
+  497  cd 
+  498  df -h
+  499  cd /usr
+  500  ll
+  501  cd lib
+  502  ll
+  503  cd ../share
+  504  ll
+  505  cd cmake
+  506  ll
+  507  cd bash-completion/
+  508  ll
+  509  cd ../../../../
+  510  cd /usr/lib/llvm-4.0
+  511  ll
+  512  cd /
+  513  ll
+  514  df -h
+  515  cd /
+  516  ll
+  517  cd usr
+  518  ll
+  519  cd share
+  520  ll
+  521  cd ../
+  522  ll
+  523  cd src
+  524  llc
+  525  ll
+  526  cd ..
+  527  ll
+  528  cd bin
+  529  ll
+  530  cd /data/test/dimension/build/programs/nodeos/
+  531  vim config.ini
+  532  rename config.ini genesis.json 
+  533  sudo apt install rename
+  534  rename config.ini genesis.json 
+  535  ll
+  536  mv config.ini genesis.json 
+  537  ll
+  538  vim genesis.json 
+  539  vim config.ini 
+  540  cd /share
+  541  cd /
+  542  ll
+  543  cd src/
+  544  ll
+  545  cd /data/test/share/
+  546  ll
+  547  cat /etc/apt/sources.list
+  548  cd /etc/apt/
+  549  ll
+  550  date
+  551  cd /usr
+  552  ll
+  553  cd share/
+  554  ll
+  555  cd man
+  556  ll
+  557  cd ..
+  558  cd info
+  559  ll
+  560  cd ../../
+  561  ll
+  562  cd include/
+  563  ll
+  564  cd /data/test/
+  565  ll
+  566  cd src
+  567  ll
+  568  grep -nr HOME
+  569  ll
+  570  cd /bin/
+  571  ll
+  572  cd cmake
+  573  cd /opt
+  574  ll
+  575  cd /data/
+  576  cd /opt
+  577  ll
+  578  cd /data/test/
+  579  ll
+  580  cd opt
+  581  ll
+  582  echo $CMAKE
+  583  -e $CMAKE
+  584  ll
+  585  sudo find / -name cmake
+  586  cd /data/test/dimension/
+  587  ll
+  588  sudo ./eosio_install.sh
+  589  sudo ./scripts/eosio_install.sh
+  590  cd ..
+  591  git clone git@github.com:peterrrre/dimension-testnet.git
+  592  git clone https://git@github.com/peterrrre/dimension-testnet.git
+  593  cd dimension-testnet/
+  594  ll
+  595  vim config.ini 
+  596  cd ..
+  597  cd dimension
+  598  ll
+  599  cd build/programs/keosd/
+  600  ll
+  601  keosd
+  602  ./keosd
+  603  cleos
+  604  cd /data/test/dimension/build/programs/cleos/
+  605  ll
+  606  ./cleos 
+  607  cd /data/test/
+  608  ll
+  609  cd .local/
+  610  ll
+  611  cd share/
+  612  ll
+  613  cd eosio/
+  614  ll
+  615  cd nodeos/
+  616  l
+  617  ll
+  618  cd data/
+  619  ll
+  620  cd ..
+  621  ll
+  622  rm -rf nodeos/
+  623  cd /data/test/dimension/build/programs/cleos/
+  624  ./cleos get table eonio eonio proposals 
+  625  cd /data/test/dimension/build/programs/nodeos/
+  626  ll
+  627  ./nodeos --genesis-json ./genesis.json --config-dir ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'yourbpname' --signature-provider='your_producer_pub_key'=KEY:'your_producer_private_key' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  628  df -h
+  629  ll
+  630  vim genesis.json 
+  631  ll
+  632  ps -ef | grep nodeos
+  633  ls
+  634  cd dimension/build/programs/nodeos/
+  635  ls
+  636  cat config.ini 
+  637  ls
+  638  cd
+  639  l
+  640  ls
+  641  cd /data/test/dimension
+  642  ls
+  643  cd build/programs/
+  644  ls
+  645  ls
+  646  cat genesis.json 
+  647  cat config.
+  648  cat config.ini 
+  649  ./nodeos --genesis-json ./data/test/dimension/build/programs/nodes/genesis.json --config-dir ~/data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin &> stdout.log 
+  650  ll
+  651  vim stdout.log 
+  652  ./nodeos --genesis-json ./data/test/dimension/build/programs/nodes/genesis.json --config-dir ~/data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin 
+  653  ./nodeos --genesis-json ./genesis.json --config-dir ~/data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin 
+  654  pwd
+  655  ./nodeos --genesis-json ./genesis.json --config-dir ./nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin 
+  656  ls
+  657  ./nodeos --genesis-json ./genesis.json --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin 
+  658  cd /data/test/dimension/build/programs/cleos/
+  659  ./cleos get info
+  660  ./cleos 
+  661  ./cleos get info
+  662  ./cleos -u http://47.103.88.11:8000 get info
+  663  ./cleos get info
+  664  ./cleos 
+  665  ./cleos get 
+  666  ./cleos get account asmapotato
+  667  ./cleos get account asmallpotato
+  668  ./cleos -u http://47.103.88.11:8000 get account asmallpotato
+  669  ./cleos -u http://47.103.88.11:8000 get table enoio eonio proposals
+  670  ./cleos -u http://47.103.88.11:8000 get table eonio eonio proposals
+  671  ./cleos -u http://47.103.88.11:8000 get table 
+  672  ./cleos -u http://47.103.88.11:8000 get table eonio eonio proposals -l 2
+  673  ./cleos -u http://47.103.88.11:8000 get table eonio eonio proposals -l 200
+  674  ./cleos -u http://47.103.88.11:8000 get table 
+  675  ./cleos -u http://47.103.88.11:8000 get table eonio eonio proposals -L 17
+  676  ./cleos -u http://47.103.88.11:8000 get table eonio eonio proposals -L 16
+  677  ./cleos -u http://47.103.88.11:8000 
+  678  cd ../../
+  679  cd ../
+  680  ll
+  681  cd tutorials/bios-boot-tutorial/
+  682  ls
+  683  vim bios-boot-tutorial.py 
+  684  cd .././
+  685  cd ../
+  686  cd build/programs/cleos/
+  687  ./cleos get table eonio eonio producers
+  688  ./cleos get account eonio.vpay
+  689  ps -ef | grep nodeos
+  690  cd ../nodeos/
+  691  ./nodeos --genesis-json ./genesis.json --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin &> out.log 
+  692  ps -ef | grep nodeos
+  693  ls
+  694  cat out.log 
+  695  ls
+  696  ./nodeos --genesis-json ./genesis.json --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  697  ps -ef | grep nodeos
+  698  ./nodeos --genesis-json ./genesis.json --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  699  cat stdout.log 
+  700  cat stdout.log ls
+  701  ls
+  702  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  703  head -n 10 stdout.log 
+  704  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  705  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  706  ls /data/test/.local/share/eosio/nodeos/data
+  707  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks & &> stdout.log
+  708  ls
+  709  cat stdout.log 
+  710  ps -ef | grep nodos
+  711  cat stdout.log 
+  712  ps -ef | grep nodos
+  713  cat stdout.log 
+  714  ps -ef | grep nodos
+  715  cat stdout.log 
+  716  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks & &> stdout.log
+  717  cat stdout.log 
+  718  ps -ef | grep nodos
+  719  cat stdout.log 
+  720  ps -ef | grep nodos
+  721  netstat -ano | grep 8888
+  722  kill 6795
+  723  kill 6767
+  724  cat stdout.log 
+  725  ps -ef | grep nodos
+  726  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks & > stdout.log 
+  727  cat stdout.log 
+  728  ps -ef | grep nodos
+  729  cat stdout.log 
+  730  ps -ef | grep nodos
+  731  ../cleos/cleos get info
+  732  ps -ef | grep nodos
+  733  ../cleos/cleos get info
+  734  cat stdout.log 
+  735  ../cleos/cleos get info
+  736  cat stdout.log 
+  737  ../cleos/cleos get info
+  738  ll /data
+  739  ll
+  740  ll /
+  741  sudu chown -R ubuntu:tbuntu /data
+  742  sudo chown -R ubuntu:tbuntu /data
+  743  sudo chown -R ubuntu:ubuntu /data
+  744  ll /
+  745  ll /da
+  746  ll /data/
+  747  kill /data/test/.local/share/eosio/nodeos/data
+  748  ps -ef | greo nodeos
+  749  ps -ef | grep nodeos
+  750  ls
+  751  cat stdout.log 
+  752  ps -ef | grep nodeos
+  753  cat stdout.log 
+  754  ../cleos/cleos get info
+  755  kill 6823
+  756  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks & > stdout.log 
+  757  ls
+  758  c
+  759  cat stdout.log 
+  760  ps -ef | grep nodeos
+  761  cat stdout.log 
+  762  kill 6928
+  763  ll /data/test/
+  764  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  765  df -h
+  766  ls /data/test/
+  767  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  768  cd /data/test/dimension/build/programs/nodeos/
+  769  ./nodeos --genesis-json ./genesis.json --config-dir ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'yourbpname' --signature-provider='your_producer_pub_key'=KEY:'your_producer_private_key' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  770  ./nodeos --genesis-json ./genesis.json --config-dir ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  771  vim config.ini 
+  772  vim genesis.json 
+  773  ./nodeos --genesis-json ./genesis.json --config-dir ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --plugin eosio::http_plugin --plugin eosio::chain_api_plugin  --plugin eosio::history_api_plugin
+  774  vim config.ini 
+  775  ./nodeos --genesis-json ./genesis.json --config-dir ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  776  ./nodeos --genesis-json ./genesis.json --config-dir ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  777  ./nodeos --genesis-json ./genesis.json  ~/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin
+  778  ./nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin
+  779  vim config.ini 
+  780  cp genesis.json /data/test/.local/share/eosio/nodeos/config/
+  781  cd /data/test/dimension/build/programs/
+  782  cd cleos/
+  783  ll
+  784  ./cleos get table eonio eonio proposals 
+  785  ./cleos system execproposal 'yourbpname' 'proposal_id'
+  786  ./cleos system execproposal 'asmallpotato' '0'
+  787  ./cleos -u http://47.88.11:8000 get table eonio eonio proposals
+  788  ./cleos system execproposal 'asmallpotato' '0'
+  789  ./cleos system execproposal 'asmallpotato' '3'
+  790  ./cleos system execproposal 'asmallpotato' '1'
+  791  cleos get info
+  792  ./cleos get info
+  793  ./cleos -u http://47.103.88.11:9001 get table eonio eonio proposals
+  794  ./cleos -u 47.103.88.11:9001 get table eonio eonio proposals
+  795  cd /data/test/
+  796  ll
+  797  .local/
+  798  ll
+  799  cd .local/
+  800  ll
+  801  cd share/
+  802  ll
+  803  rm -rf eosio/
+  804  cd eosio/
+  805  ll
+  806  cd nodeos/
+  807  ll
+  808  vim config/
+  809  cd config/
+  810  ll
+  811  vim config.ini 
+  812  ll
+  813  cd /data/
+  814  ls
+  815  cd test/dimension/
+  816  ls
+  817  cd build/programs/cleos/
+  818  ls
+  819  ./cleos get info
+  820  ps -ef | grep nodeos
+  821  ./cleos -u http://47.103.88.11:8000 get info
+  822  ./cleos -u http://47.103.88.11:8000 get table eonio eonio proposals
+  823  ps -ef | grep nod
+  824  ps -ef | grep nodeos
+  825  cd /data/test/dimension/build/programs/cleos/
+  826  ls
+  827  ./cleos system exexproposal
+  828  ./cleos system execproposal
+  829  ps -ef | grep nodeos
+  830  ./cleos get info
+  831  ./cleos get table eonio eonio proposals
+  832  cd /data/test/dimension/build/programs/nodeos/
+  833  ll
+  834  ./nodeos --genesis-json ./genesis.json --config-dir ./data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin 
+  835  ./nodeos --genesis-json ./genesis.json --config-dir ./data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name 'asmallpotato' --signature-provider='EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU'=KEY:'5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8' --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  836  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8888 --p2p-listen-endpoint 0.0.0.0:9876 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  837  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8881 --p2p-listen-endpoint 0.0.0.0:9875 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  838  vim config.
+  839  vim config.ini 
+  840  vim genesis.json 
+  841  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:8881 --p2p-listen-endpoint 0.0.0.0:9875 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  842  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:2345 --p2p-listen-endpoint 0.0.0.0:6789 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --delete-all-blocks
+  843  ./nodeos --config-dir /data/test/dimension/build/programs/nodeos --http-server-address 0.0.0.0:2345 --p2p-listen-endpoint 0.0.0.0:6789 --http-validate-host=false --producer-name asmallpotato --signature-provider=EOS7s9sxZ9khGiX9g8jKZjoDEnQ8Zr9avZy7RpbXTisp41nGYVXZU=KEY:5KBCN3RMVTswkNevGbqbgJqLz36vP5Aj4XGnL6S81ucm5XBFnB8 --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --plugin eosio::producer_plugin --plugin eosio::history_api_plugin --replay
+  844  ./cleos -u
+  845  cd ../cleos/
+  846  ./cleos -u
+  847  ./cleos system
+  848  ./cleos system listproducers
+  849  ./cleos -u http://http://peer1.eoshuobipool.com:8181  system listproducers
+  850  ./cleos -u http://http://peer1.eoshuobipool.com:8181/  system listproducers
+  851  ./cleos -u http://peer1.eoshuobipool.com:8181/  system listproducers
+  852  ./cleos
+  853  ./cleos get 
+  854  ./cleos -u http://peer1.eoshuobipool.com:8181/  get actions asmallpotato
+  855  ./cleos -u http://peer1.eoshuobipool.com:8181/  get actions eoshuobipool
+  856  ./cleos -u http://peer1.eoshuobipool.com:8181/  get schedule
+  857  cd /data/test/dimension/build/programs/cleos/
+  858  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account jrrcryptoeos
+  859  ./cleos -u http://peer1.eoshuobipool.com:8181/  system listproducer 16 17
+  860  ./cleos -u http://47.103.88.11:8000 get account asmallpotato
+  861  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account jrrcryptoeos
+  862  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account asmallpotato
+  863  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account eosio.vpay
+  864  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account jrrcryptoeos
+  865  ./cleos -u eos.okpool.top:9876  get account jrrcryptoeos
+  866  ./cleos -u http://eos.okpool.top:9876  get account jrrcryptoeos
+  867  ./cleos -u http://eos.okpool.top:9876/  get account jrrcryptoeos
+  868  ./cleos -u http://eos-bp.bitfinex.com:8888  get account jrrcryptoeos
+  869  ./cleos -u http://peer1.eoshuobipool.com:18181  get account jrrcryptoeos
+  870  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account eosio.vpay
+  871  ./cleos -u http://http://peer1.eoshuobipool.com:8181  system listproducers
+  872  ./cleos -u http://http://peer1.eoshuobipool.com:18181  system listproducers
+  873  ./cleos -u http://http://eos.okpool.top:9876  system listproducers
+  874  ./cleos -u http://http://eosnode.b1.run:9876  system listproducers
+  875  ./cleos -u http://http://peer1.eoshuobipool.com:18181  system listproducers
+  876  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account 
+  877  ./cleos -u http://peer1.eoshuobipool.com:8181/ system listproducers
+  878  ./cleos -u http://peer1.eoshuobipool.com:8181/ system listproducers -L 49
+  879  ./cleos -u http://peer1.eoshuobipool.com:8181/ system listproducers -L 49 50
+  880  ./cleos -u http://peer1.eoshuobipool.com:8181/ system listproducers -L 100
+  881  ./cleos -u http://peer1.eoshuobipool.com:8181/ system listproducers -L 100 --lower 
+  882  ./cleos -u http://peer1.eoshuobipool.com:8181/ system listproducers -L >pro.txt
+  883  cat pro.txt
+  884  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account eosio.vpay
+  885  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account jrrcryptoeos
+  886  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account big.one
+  887  ./cleos -u http://peer1.eoshuobipool.com:8181/  get asmallpotato eosio
+  888  cd /data/test/dimension/build/programs/nodeos/
+  889  cd ../cleos/
+  890  ./cleos -u http://peer1.eoshuobipool.com:8181/  get asmallpotato eosio
+  891  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account asmallpotato
+  892  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account jrrcryptoeos
+  893  ./cleos -u http://peer1.eoshuobipool.com:8181/  system
+  894  ./cleos
+  895  ./cleos system
+  896  ./cleos -u http://peer1.eoshuobipool.com:8181/  system listproducer 16 17
+  897  ./cleos -u http://peer1.eoshuobipool.com:8181/  system listproducer 
+  898  ./cleos -u http://peer1.eoshuobipool.com:8181/  system listproducers
+  899  ./cleos get
+  900  ./cleos
+  901  ./cleos convert 
+  902  ./cleos -u http://peer1.eoshuobipool.com:8181/  convert pack_transaction
+  903  ./cleos get
+  904  ./cleos account
+  905  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account 
+  906  ./cleos -u http://peer1.eoshuobipool.com:8181/  get account jrrcryptoeos
+  907  ./cleos get
+  908  ./cleos get table
+  909  ./cleos get
+  910  history 
+  911  history >his.txt
+  912  vim his.txt 
+  913  history >his.txt
+  914  vim his.txt 
+  915  history 
+  916  cd /data/test/dimension/build/programs/cleos/
+  917  ll
+  918  vim history.txt 
+  919  ./cleos get block
+  920  ./cleos get info
+  921  cd /data/test/dimension/build/programs/cleos/
+  922  ll
+  923  vim history.txt 
+  924  cd /data/test/dimension/build/programs/nodeos/
+  925  ll
+  926  cd /data/test/dimension/build/programs/cleos/
+  927  ll
+  928  vim his.txt 
+  929  history 
+  930  history >history.txt
+  931  vim history.txt 
+  932  history >history1.txt
+  933  vim history1.txt 
+  934  cd /data/test/
+  935  ll
+  936  history >his.txt
